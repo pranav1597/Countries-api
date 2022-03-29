@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link, useParams} from 'react-router-dom'
+import Filter from './Filter'
 
 export default function Countries({ darkMode }) {
 
